@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Parte 4: Código-Fonte de Códigos1/telamatriz.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Parte 4
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Busca');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_6555fbbf07e738883de13fe6d50ded92.html">Códigos1</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">telamatriz.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="telamatriz_8h.html">Vá para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef TELAMATRIZ_H</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#define TELAMATRIZ_H</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;sculptor.h&quot;</span></div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;QWidget&gt;</span></div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_tela_matriz.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_tela_matriz.html">TelaMatriz</a> : <span class="keyword">public</span> QWidget</div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    Q_OBJECT</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">public</span>:</div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">explicit</span> <a class="code" href="class_tela_matriz.html#a364a62189a9e8ad2810e9649b42f9a49">TelaMatriz</a>(QWidget *parent = <span class="keyword">nullptr</span>);</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#adbb17944379acfb70e04884bde8a3a20">paintEvent</a>(QPaintEvent *event);</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#a337a9b309ee5a9ac48fef03b8219a54f">mousePressEvent</a>(QMouseEvent *event);</div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#a1f2cadafde3b09279555efdc116c73a9">mouseReleaseEvent</a>(QMouseEvent *event);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#a47e1e6ae34d79ccfe63d7fc8d1a232f8">on_pushButton_clicked</a>();</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#aa78a1630555706d7997dd1db8039e41c">putVoxel</a>();</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#ab9ad3f5d3164b37f8c5f87320800cd87">cutVoxel</a>();</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#a86018eb7b92a2f1c11d12bc943abc987">putBox</a>(<span class="keywordtype">int</span> x1, <span class="keywordtype">int</span> y1, <span class="keywordtype">int</span> z1);</div><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#add70bbf4eb73e1b71f28101d9cba20cd">cutBox</a>(<span class="keywordtype">int</span> x1, <span class="keywordtype">int</span> y1, <span class="keywordtype">int</span> z1);</div><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#a25d7d1c4fe0f09d31912e2d8d5354930">putSphere</a>(<span class="keywordtype">int</span> r);</div><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#ad06d1b8259ce8ed068a08d2dd56a9d27">cutSphere</a>(<span class="keywordtype">int</span> r);</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#a615f592dc4d21963b5717fb560c9f671">putEllipsoid</a>(<span class="keywordtype">int</span> rx, <span class="keywordtype">int</span> ry, <span class="keywordtype">int</span> rz);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#a272f36b1320382514d3bcf15486747db">cutEllipsoid</a>(<span class="keywordtype">int</span> rx, <span class="keywordtype">int</span> ry, <span class="keywordtype">int</span> rz);</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#aca03b7dc5a81f06cb9db3573827b838c">setRGBA</a>(<span class="keywordtype">int</span> r, <span class="keywordtype">int</span> g, <span class="keywordtype">int</span> b, <span class="keywordtype">int</span> a);</div><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#a593deab81a421500384e1a124e1fb0e1">setZAtual</a>(<span class="keywordtype">int</span> z);</div><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#a1cee6d3373fe06a6e80025dabc90fa9d">exportarOFF</a>();</div><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#a7365a4fe945dc23354a42a9a67cf16d1">setRadioButton</a>(<span class="keywordtype">int</span> x);</div><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;signals:</div><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#a1b640d057290555271d2030377cbbdcc">posAtualMouse</a>(<span class="keywordtype">int</span> x,<span class="keywordtype">int</span> y);</div><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">public</span> slots:</div><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_tela_matriz.html#aaf4128f6add94fcf271d17dec6258961">setSizeMatriz</a>(<span class="keywordtype">int</span> x, <span class="keywordtype">int</span> y, <span class="keywordtype">int</span> z);</div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="keyword">private</span>:</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordtype">bool</span> matrizCriada;</div><div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    Sculptor *matriz;</div><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">int</span> matrizX, matrizY, matrizZ, XAtual,YAtual,ZAtual,sizeRectX,sizeRectY;</div><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;};</div><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#endif // TELAMATRIZ_H</span></div><div class="ttc" id="class_tela_matriz_html_ab9ad3f5d3164b37f8c5f87320800cd87"><div class="ttname"><a href="class_tela_matriz.html#ab9ad3f5d3164b37f8c5f87320800cd87">TelaMatriz::cutVoxel</a></div><div class="ttdeci">void cutVoxel()</div><div class="ttdef"><b>Definition:</b> telamatriz.cpp:175</div></div>
+<div class="ttc" id="class_tela_matriz_html_ad06d1b8259ce8ed068a08d2dd56a9d27"><div class="ttname"><a href="class_tela_matriz.html#ad06d1b8259ce8ed068a08d2dd56a9d27">TelaMatriz::cutSphere</a></div><div class="ttdeci">void cutSphere(int r)</div><div class="ttdef"><b>Definition:</b> telamatriz.cpp:223</div></div>
+<div class="ttc" id="class_tela_matriz_html_a7365a4fe945dc23354a42a9a67cf16d1"><div class="ttname"><a href="class_tela_matriz.html#a7365a4fe945dc23354a42a9a67cf16d1">TelaMatriz::setRadioButton</a></div><div class="ttdeci">void setRadioButton(int x)</div><div class="ttdef"><b>Definition:</b> telamatriz.cpp:154</div></div>
+<div class="ttc" id="class_tela_matriz_html_a1cee6d3373fe06a6e80025dabc90fa9d"><div class="ttname"><a href="class_tela_matriz.html#a1cee6d3373fe06a6e80025dabc90fa9d">TelaMatriz::exportarOFF</a></div><div class="ttdeci">void exportarOFF()</div><div class="ttdef"><b>Definition:</b> telamatriz.cpp:259</div></div>
+<div class="ttc" id="class_tela_matriz_html_a47e1e6ae34d79ccfe63d7fc8d1a232f8"><div class="ttname"><a href="class_tela_matriz.html#a47e1e6ae34d79ccfe63d7fc8d1a232f8">TelaMatriz::on_pushButton_clicked</a></div><div class="ttdeci">void on_pushButton_clicked()</div></div>
+<div class="ttc" id="class_tela_matriz_html_aca03b7dc5a81f06cb9db3573827b838c"><div class="ttname"><a href="class_tela_matriz.html#aca03b7dc5a81f06cb9db3573827b838c">TelaMatriz::setRGBA</a></div><div class="ttdeci">void setRGBA(int r, int g, int b, int a)</div><div class="ttdef"><b>Definition:</b> telamatriz.cpp:143</div></div>
+<div class="ttc" id="class_tela_matriz_html_a272f36b1320382514d3bcf15486747db"><div class="ttname"><a href="class_tela_matriz.html#a272f36b1320382514d3bcf15486747db">TelaMatriz::cutEllipsoid</a></div><div class="ttdeci">void cutEllipsoid(int rx, int ry, int rz)</div><div class="ttdef"><b>Definition:</b> telamatriz.cpp:247</div></div>
+<div class="ttc" id="class_tela_matriz_html_aa78a1630555706d7997dd1db8039e41c"><div class="ttname"><a href="class_tela_matriz.html#aa78a1630555706d7997dd1db8039e41c">TelaMatriz::putVoxel</a></div><div class="ttdeci">void putVoxel()</div><div class="ttdef"><b>Definition:</b> telamatriz.cpp:163</div></div>
+<div class="ttc" id="class_tela_matriz_html_a25d7d1c4fe0f09d31912e2d8d5354930"><div class="ttname"><a href="class_tela_matriz.html#a25d7d1c4fe0f09d31912e2d8d5354930">TelaMatriz::putSphere</a></div><div class="ttdeci">void putSphere(int r)</div><div class="ttdef"><b>Definition:</b> telamatriz.cpp:211</div></div>
+<div class="ttc" id="class_tela_matriz_html_a1b640d057290555271d2030377cbbdcc"><div class="ttname"><a href="class_tela_matriz.html#a1b640d057290555271d2030377cbbdcc">TelaMatriz::posAtualMouse</a></div><div class="ttdeci">void posAtualMouse(int x, int y)</div></div>
+<div class="ttc" id="class_tela_matriz_html_a364a62189a9e8ad2810e9649b42f9a49"><div class="ttname"><a href="class_tela_matriz.html#a364a62189a9e8ad2810e9649b42f9a49">TelaMatriz::TelaMatriz</a></div><div class="ttdeci">TelaMatriz(QWidget *parent=nullptr)</div><div class="ttdef"><b>Definition:</b> telamatriz.cpp:18</div></div>
+<div class="ttc" id="class_tela_matriz_html_add70bbf4eb73e1b71f28101d9cba20cd"><div class="ttname"><a href="class_tela_matriz.html#add70bbf4eb73e1b71f28101d9cba20cd">TelaMatriz::cutBox</a></div><div class="ttdeci">void cutBox(int x1, int y1, int z1)</div><div class="ttdef"><b>Definition:</b> telamatriz.cpp:199</div></div>
+<div class="ttc" id="class_tela_matriz_html_aaf4128f6add94fcf271d17dec6258961"><div class="ttname"><a href="class_tela_matriz.html#aaf4128f6add94fcf271d17dec6258961">TelaMatriz::setSizeMatriz</a></div><div class="ttdeci">void setSizeMatriz(int x, int y, int z)</div><div class="ttdef"><b>Definition:</b> telamatriz.cpp:126</div></div>
+<div class="ttc" id="class_tela_matriz_html_adbb17944379acfb70e04884bde8a3a20"><div class="ttname"><a href="class_tela_matriz.html#adbb17944379acfb70e04884bde8a3a20">TelaMatriz::paintEvent</a></div><div class="ttdeci">void paintEvent(QPaintEvent *event)</div><div class="ttdef"><b>Definition:</b> telamatriz.cpp:31</div></div>
+<div class="ttc" id="class_tela_matriz_html_a337a9b309ee5a9ac48fef03b8219a54f"><div class="ttname"><a href="class_tela_matriz.html#a337a9b309ee5a9ac48fef03b8219a54f">TelaMatriz::mousePressEvent</a></div><div class="ttdeci">void mousePressEvent(QMouseEvent *event)</div><div class="ttdef"><b>Definition:</b> telamatriz.cpp:79</div></div>
+<div class="ttc" id="class_tela_matriz_html_a1f2cadafde3b09279555efdc116c73a9"><div class="ttname"><a href="class_tela_matriz.html#a1f2cadafde3b09279555efdc116c73a9">TelaMatriz::mouseReleaseEvent</a></div><div class="ttdeci">void mouseReleaseEvent(QMouseEvent *event)</div><div class="ttdef"><b>Definition:</b> telamatriz.cpp:95</div></div>
+<div class="ttc" id="class_tela_matriz_html_a615f592dc4d21963b5717fb560c9f671"><div class="ttname"><a href="class_tela_matriz.html#a615f592dc4d21963b5717fb560c9f671">TelaMatriz::putEllipsoid</a></div><div class="ttdeci">void putEllipsoid(int rx, int ry, int rz)</div><div class="ttdef"><b>Definition:</b> telamatriz.cpp:235</div></div>
+<div class="ttc" id="class_tela_matriz_html_a86018eb7b92a2f1c11d12bc943abc987"><div class="ttname"><a href="class_tela_matriz.html#a86018eb7b92a2f1c11d12bc943abc987">TelaMatriz::putBox</a></div><div class="ttdeci">void putBox(int x1, int y1, int z1)</div><div class="ttdef"><b>Definition:</b> telamatriz.cpp:187</div></div>
+<div class="ttc" id="class_tela_matriz_html"><div class="ttname"><a href="class_tela_matriz.html">TelaMatriz</a></div><div class="ttdef"><b>Definition:</b> telamatriz.h:12</div></div>
+<div class="ttc" id="class_tela_matriz_html_a593deab81a421500384e1a124e1fb0e1"><div class="ttname"><a href="class_tela_matriz.html#a593deab81a421500384e1a124e1fb0e1">TelaMatriz::setZAtual</a></div><div class="ttdeci">void setZAtual(int z)</div><div class="ttdef"><b>Definition:</b> telamatriz.cpp:116</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>
